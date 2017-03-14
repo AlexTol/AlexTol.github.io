@@ -1,0 +1,99 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.Header{
+ width: 100%;
+ height: 150px;
+  background: dodgerblue;
+  position: relative;
+  margin: 0;
+}
+
+
+.Title{
+    text-align: left;
+    vertical-align: middle;
+    line-height: 100px;
+    font-family: 'Lalezar';
+    font-size: 40px;
+    color: ghostwhite;
+    }
+
+.Nav{
+    width: 100%;
+    height: 60px;
+    position:absolute;
+    color:ghostwhite;
+    display:flex;
+    padding:0;
+    bottom:0;
+    margin-bottom: 0;
+}
+
+    .Item{
+        width: 150px;
+        height: 50px;
+        border-style: solid;
+        color:grey;
+        border-width: 7px;
+        list-style-type: none;
+        position: relative;
+        bottom: 4px;
+    }
+
+    .Item a{
+        font-size: 16px;
+        display: block;
+        color: white;
+        text-align: center;
+        line-height: 60px;
+        text-decoration: none;
+        font-family: 'Lalezar';
+    }
+
+
+    .Active{
+        color: greenyellow;
+    }
+
+
+     li:hover{
+        color: yellow;
+    }
+
+    li:hover a{
+        color: yellow;
+        
+    }
+
+    .RowContainer{
+        padding: 60px;
+    }
+
+    .Row{
+        padding: 30px;
+        float:inherit;
+        width:100%;
+        height: 300px;
+    }
+    
+    .BContainer{
+        padding: 10px;
+        float:left;
+        height:100%;
+        width:300px;
+    }
+
+    .Box{
+        border-style: solid;
+        border-color:lightskyblue;
+        border-width: 1px;
+        padding: 10px;
+        height: 300px;
+        width:80%;
+        height:100%;
+    }
