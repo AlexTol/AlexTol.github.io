@@ -24,29 +24,31 @@ body{
     }
 
 .Nav{
-    width: 100%;
+    width: 80%;
     height: 60px;
     position:absolute;
     color:ghostwhite;
     display:flex;
     padding:0;
     bottom:0;
+    left:17%;
     margin-bottom: 0;
 }
 
     .Item{
-        width: 150px;
+        width: 200px;
         height: 50px;
         border-style: solid;
-        color:grey;
+        color:lightskyblue;
         border-width: 7px;
         list-style-type: none;
         position: relative;
         bottom: 4px;
+        background-color: grey;
     }
 
     .Item a{
-        font-size: 16px;
+        font-size: 15px;
         display: block;
         color: white;
         text-align: center;
@@ -79,21 +81,101 @@ body{
         float:inherit;
         width:100%;
         height: 300px;
+        text-align: center;
     }
     
     .BContainer{
         padding: 10px;
-        float:left;
+        display: inline-block;
         height:100%;
-        width:300px;
+        width:333px;
+        
     }
 
     .Box{
         border-style: solid;
         border-color:lightskyblue;
-        border-width: 1px;
+        border-width: 5px;
         padding: 10px;
-        height: 300px;
         width:80%;
-        height:100%;
+        height:96%;
+        text-align: right;
     }
+
+    .r1{
+        height: 100px;
+    }
+
+     .a1{
+            background-image: url('../Picture/3-12-2012.png'); 
+            background-size: 108%;  
+    }
+
+    .a2{
+            background-image: url('../Picture/3-5-2013.png'); 
+            background-size: 104%;  
+    }
+
+    .a3{
+            background-image: url('../Picture/3-4-2014.png'); 
+            background-size: 104%; 
+    }
+
+    .a4{
+            background-image: url('../Picture/3-10-2015.png'); 
+            background-size: 105%; 
+    }
+
+    .a5{
+            background-image: url('../Picture/3-8-2016.png'); 
+            background-size: 105%; 
+    }
+
+    .a6{
+            background-image: url('../Picture/3-7-2017.png'); 
+            background-size: 104%;  
+    }
+
+    .Status{
+        display: inline-block;
+        padding: 30px;
+    }
+
+    .Color{
+        width: 25px;
+        height: 15px;
+        border-style: solid;
+        border-color:black;
+        border-width: 3px;
+        display: inline-block;
+    }
+
+    .Severity{
+        display: inline-block;
+    }
+
+    .r1{
+        text-align:left;
+    }
+
+        .c1{
+            background-color: rgb(114,0,1);
+        }
+
+        .c2{
+            background-color: rgb(204,7,8);
+        }
+
+        .c3{
+            background-color: rgb(255,169,2);
+        }
+
+        .c4{
+            background-color: rgb(252,208,126);
+        }
+
+        .c5{
+            background-color: rgb(255,253,0);
+        }
+
+       
