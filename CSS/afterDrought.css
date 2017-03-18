@@ -57,6 +57,7 @@ body{
         font-family: 'Lalezar';
     }
 
+
     .Dbtn {
         width: 200px;
         height: 107%;
@@ -113,7 +114,7 @@ body{
 
 
     .Active{
-        color: greenyellow;
+        border-color: greenyellow;
     }
 
 
@@ -126,110 +127,91 @@ body{
         
     }
 
-    .RowContainer{
-        padding: 60px;
+    .Container{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        padding-left: 75px;
+        padding-right: 75px;
+        background: white;
     }
 
-    .Row{
-        padding: 30px;
-        float:inherit;
-        width:100%;
-        height: 300px;
-        text-align: center;
-    }
-    
-    .BContainer{
+    .Essay{
         padding: 10px;
-        display: inline-block;
-        height:100%;
-        width:333px;
-        
-    }
-
-    .Box{
         border-style: solid;
+        border-width: 10px;
         border-color:lightskyblue;
-        border-width: 5px;
-        padding: 10px;
-        width:80%;
-        height:96%;
-        text-align: right;
+        border-radius: 25px;
+        background: linear-gradient(white,ghostwhite);
+        text-align: justify;
     }
 
-    .r1{
-        height: 100px;
+
+    h1{
+        font-family: 'Georgia';
+        text-decoration: underline;
     }
 
-     .a1{
-            background-image: url('../Picture/3-12-2012.PNG'); 
-            background-size: 108%;  
+
+    h2{
+        padding-top: 50px;
     }
 
-    .a2{
-            background-image: url('../Picture/3-5-2013.PNG'); 
-            background-size: 104%;  
+
+  
+
+    p{
+        text-align:justify;
+        text-indent: 58px;
+        font-family: 'Georgia';
+        font-size: 20px;
+        padding:40px;
+    }
+ 
+
+    .Tips{
+        padding-top:7px;
+        padding-bottom:7px;
     }
 
-    .a3{
-            background-image: url('../Picture/3-4-2014.PNG'); 
-            background-size: 104%; 
+     .HH1{
+        font-family: 'Georgia';
+        text-decoration: underline;
+        text-align:center;
+        padding-bottom: 30px;
     }
 
-    .a4{
-            background-image: url('../Picture/3-10-2015.PNG'); 
-            background-size: 105%; 
+    .G{
+        padding-top: 30px;
     }
 
-    .a5{
-            background-image: url('../Picture/3-8-2016.PNG'); 
-            background-size: 105%; 
+    .GG{
+        padding-top:7px;
+        padding-bottom:7px;
+        list-style-type: none;
     }
 
-    .a6{
-            background-image: url('../Picture/3-7-2017.PNG'); 
-            background-size: 104%;  
+    .LL{
+        padding-top:7px;
+        padding-bottom:7px;
     }
 
-    .Status{
-        display: inline-block;
-        padding: 30px;
+    .Pic1{
+        float: right;
+        padding: 20px;
+    width: 300px;
+    height: 300px;
     }
 
-    .Color{
-        width: 25px;
-        height: 15px;
-        border-style: solid;
-        border-color:black;
-        border-width: 3px;
-        display: inline-block;
+    .Pic2{
+        float: left;
+        padding: 50px;
+    width: 200px;
+    height: 200px;
     }
 
-    .Severity{
-        display: inline-block;
+    .Pic3{
+        float: right;
+        padding: 20px;
+    width: 300px;
+    height: 300px;
     }
-
-    .r1{
-        text-align:left;
-    }
-
-        .c1{
-            background-color: rgb(114,0,1);
-        }
-
-        .c2{
-            background-color: rgb(204,7,8);
-        }
-
-        .c3{
-            background-color: rgb(255,169,2);
-        }
-
-        .c4{
-            background-color: rgb(252,208,126);
-        }
-
-        .c5{
-            background-color: rgb(255,253,0);
-        }
-
-       

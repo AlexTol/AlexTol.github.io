@@ -31,11 +31,11 @@ body{
     display:flex;
     padding:0;
     bottom:0;
-    left:17%;
+    left:10%;
     margin-bottom: 0;
 }
 
-.Item{
+    .Item{
         width: 200px;
         height: 50px;
         border-style: solid;
@@ -48,7 +48,7 @@ body{
     }
 
     .Item a{
-        font-size: 15px;
+        font-size: 13px;
         display: block;
         color: white;
         text-align: center;
@@ -57,16 +57,102 @@ body{
         font-family: 'Lalezar';
     }
 
+    .Dbtn {
+        width: 200px;
+        height: 107%;
+        border-style: solid;
+        border-color:lightskyblue;
+        border-width: 7px;
+        list-style-type: none;
+        position: relative;
+        bottom: 4px;
+        background-color: grey;
+        font-size: 13px;
+        color: white;
+        font-family: 'Lalezar';
+        text-align: bottom;
+        padding-top: 10px;
+}
+
+.Dbtn:hover {
+   border-color: yellow;
+}
+
+
+
+.DD {
+    position: relative;
+    display: inline-block;
+}
+
+.DDD {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.DDD a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.DDD a:hover {
+    background-color: lightskyblue;
+    color: yellow;
+    }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
 
     .Active{
         color: greenyellow;
     }
 
 
-     li:hover{
+     .Item:hover{
         color: yellow;
     }
 
-    li:hover a{
-        color: yellow; 
+    .Item:hover a{
+        color: yellow;
+        
+    }
+
+    .Container{
+        padding-top: 60px;
+        padding-bottom: 30px;
+        padding-left: 75px;
+        padding-right: 75px;
+        background: white;
+    }
+
+    .Essay{
+        padding: 10px;
+        border-style: solid;
+        border-width: 10px;
+        border-color:lightskyblue;
+        border-radius: 25px;
+        background: linear-gradient(white,ghostwhite);
+        text-align: justify;
+    }
+
+      h1{
+        font-family: 'Georgia';
+        text-decoration: underline;
+    }
+
+    p{
+        text-align:justify;
+        text-indent: 58px;
+        font-family: 'Georgia';
+        font-size: 20px;
+        padding:40px;
     }
