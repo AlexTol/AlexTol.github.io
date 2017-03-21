@@ -2,6 +2,7 @@ body{
     padding:0;
     margin:0;
     box-sizing: border-box;
+    width: 100%;
 }
 
 
@@ -26,7 +27,6 @@ body{
     }
 
 .Nav{
-    width: 80%;
     height: 60px;
     position:absolute;
     color:ghostwhite;
@@ -35,7 +35,7 @@ body{
     bottom:0;
     margin-bottom: 0;
     text-align:center;
-    margin-left: 50%;
+    margin-left:10.3%;
 }
 
     .Item{
@@ -49,6 +49,7 @@ body{
         bottom: 3px;
         background-color: grey;
         text-align: center;
+        align-content: center;
     }
 
     .Item a{
